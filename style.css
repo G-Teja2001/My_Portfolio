@@ -1,0 +1,316 @@
+
+html {
+    background-color: black;
+}
+.radha{
+    background-color:black;
+}
+
+.name{
+    margin:0 0 0;
+    height:100vh;
+
+    background-image:url("background-02.jpeg");
+    background-size:100%;
+    /* width:100%; */
+    background-size:cover;
+    border:10px solid black;
+    background-position:center;
+   
+  
+
+}
+nav{
+    
+    display:flex;
+    align-items:center ;
+    justify-content: space-between;
+    padding-top:45px;
+    padding-left:50px;
+    padding-right:50px;
+    padding-top:-10px;
+
+    
+}
+.logo{
+    color:white;
+    font-size:45px;
+    
+}
+.logo span{
+    color:red; 
+}
+span{
+    color:rgb(248, 240, 240);
+}
+nav ul li{
+    display:inline-block;
+    font-size:22px;
+    color:red;
+    font-weight:bold;
+    padding:10px 25px;
+    border:2px solid;
+    font-weight:bold;
+    padding:10px 25px;
+    border-color:rgb(69, 65, 65);
+    border-radius:5px;
+    transition:transform .4s;  
+    
+
+}
+  
+
+ nav ul li:hover{
+    transform:scale(0.9);
+}
+  
+.contenet{
+    position:absolute;
+    top:35%;
+    left:8%;
+    transform:translateY(30%);
+    font-style:italic;
+   
+    
+}
+.contenet h1{
+
+ color:rgb(159, 23, 23);
+}
+h1{
+    margin:20px 0px 20px;
+    font-size:75px;
+    font-style:italic
+}
+h3{
+    color:white;
+    padding-left:30%;
+}
+h4{
+    color:white;
+    padding-left:5%;
+}
+.about{
+    width:100%;
+    padding:100px 0px   ;
+    background-color:#000000;
+}
+
+.about img{
+    height:auto;
+    width:430px;
+}
+
+.about-text h2{
+    font-size:60px;
+    font-style:serif;
+    text-transform:capitalize;
+    
+}
+.about-text{
+    width:650px;
+    font-size:20px;
+    font-style:italic;
+   color:white;
+}
+
+
+.main{
+   width:1130px;
+   max-width:95%;
+    margin:0 auto;
+    display:flex;
+    align-items:center;
+   justify-content:space-between; 
+    
+} 
+.main img{
+    border-radius:6%;
+   
+}
+.about-text h4{
+    margin-left:-25px;
+}
+.about-text h4 span{
+    color:red;
+}
+.about-text p{
+    color:#fcfc;
+    line-height:28px;
+    letter-spacing:1px;
+    margin-bottom:45px;
+
+}
+.skills{
+    background:black;
+    width:100%;
+    padding:100px 0px ;
+}
+.card p{
+    color:white;
+    letter-spacing:1px;
+    font-size:18px;
+    font-style:italic;
+  
+}
+.title{
+text-transform:capitalize;
+color:white;
+font-style:italic;
+font-size:40px;
+margin:-45px 40px 20px;
+}
+.title span{
+    color:red;
+}
+.card h5{
+    color:rgb(166, 156, 156);
+    font-size:25px;
+   
+    
+}
+.card{
+    margin:0px 50px ;
+    padding:-10px;
+   
+}
+.project{
+    
+    background:black;
+    padding:100px 0 ;
+    width:100%;
+}
+.title2 h2{
+    color:white;
+    font-size:60px;
+   font-style:italic;
+   display:flex;
+   justify-content:center;
+    align-items:center;
+}
+   
+.title2 span{
+    color:red;
+}
+
+.app h4{
+    margin:-10px;
+    font-size:30px;
+    font-style:italic;
+    color:white;
+ 
+}
+.app p{
+    
+    line-height:28px;
+    letter-spacing:1px;
+    margin:50px;
+    margin-bottom:45px;
+   color:rgb(195, 173, 171);
+    font-style:italic;
+    font-size:18px;
+    
+}
+.app h5{
+    font-size:25px;
+    color:rgba(172, 138, 172, 0.8);
+    margin:50px;
+   
+}
+.next{
+    padding:150px 0px; 
+}
+.app span{
+    color:white;
+
+}
+
+.contact{
+    background:rgb(5, 5, 5);
+    /* width:100%;  */
+    
+  
+}
+.pov{
+    
+}
+.details{
+    margin-top:0px;
+   
+    width:100%;
+    height:20px;
+    background:black;
+    display:flex;
+    flex-direction:row 20px;
+  
+}
+.details #ram{
+    padding:-20px 50px;
+}
+
+.details{
+    color:white;
+    position:relative;
+    top:100px;
+    bottom:1px;
+    left:0px;
+    gap:50px;
+    justify-content: center;
+
+}
+
+.details > li {
+    list-style: none;
+}
+.pov{
+    position:relative;
+    display:flex;
+    justify-content:center;
+    font-size:30px;
+    font-family:italic;
+    font-style:italic;
+    font-weight: bold;
+    color:white;
+    
+}
+.ab{
+    /* color:white;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-weight:bold;
+    border:2px solid;
+    font-weight:bold;
+    padding:10px 16px;
+    border-radius:5px; */
+
+ background-color: red;
+  border-radius:25px;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: italic;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+
+  top:90%;
+  left:45%;
+  width:65px;
+  height:20px;
+  position: absolute;
+color:black;
+
+
+ 
+}
+.ab:hover {
+    background-color:white;
+}
+div.contact{
+    position:relative;
+    left:0;
+    top:-150px;
+
+}
